@@ -10,24 +10,27 @@ p {
 h4 {
     font-size: 20px !important;
     letter-spacing: 0.5px;
+    font-weight: 600 !important;
 }
 
 h3 {
     font-size: 25px !important;
     letter-spacing: 0.5px;
+    font-weight: 700 !important;
 }
 
 h2 {
     font-size: 30px !important;
     letter-spacing: 0.5px;
+    font-weight: 800 !important;
 }
 
-.pt-100 {
-    padding-top: 100px;
+.pt-40 {
+    padding-top: 40px;
 }
 
 .pb-50 {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .text-black {
@@ -39,16 +42,12 @@ h2 {
 
 .hero-upper {
     background-color: #297fb8;
-    padding: 10px 45px 0px 90px;
+    padding: 15px 0px 0px 0px;
 }
 
 .hero-upper p {
     letter-spacing: 0.5px;
     font-size: 13px;
-}
-
-.navbar {
-    padding: 10px 45px 10px 90px !important;
 }
 
 .navbar-collapse {
@@ -62,11 +61,14 @@ h2 {
 .navbar-nav .active {
     background-color: #297fb8;
     color: #fff !important;
-    border-radius: 5px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
     color: #fff !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 7px 20px 7px 20px !important;
 }
 
 .nav-link :hover {
@@ -76,6 +78,13 @@ h2 {
 .navbar-brand img {
     height: 50px;
     width: 75px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase !important;
+    color: black!important;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .hero-banner {
@@ -96,7 +105,6 @@ h2 {
 .hero-banner-inner {
     z-index: 1;
     position: relative;
-    padding: 100px 45px 10px 90px !important;
 }
 
 .hero-stats {
@@ -132,7 +140,7 @@ h2 {
 
 .marketing-sec-img {
     border: 5px solid #FFF;
-    box-shadow: 1px 1px 15px grey;
+    box-shadow: 1px 1px 5px grey;
 }
 
 
@@ -284,6 +292,13 @@ h2 {
 
 .form-control {
     width: 30% !important;
+    border: unset !important;
+    line-height: 2.5 !important;
+    border-radius: unset !important;
+}
+
+.signup-form .btn {
+    border-radius: unset !important;
 }
 
 
@@ -337,6 +352,8 @@ h2 {
     bottom: 25px !important;
     top: unset !important;
     width: unset !important;
+    background-color: #1e5981;
+    padding: 10px 10px 10px 10px;
 }
 
 .carousel-control-prev {
@@ -352,6 +369,11 @@ h2 {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
+}
+
+.testimonial i {
+    font-size: 50px !important;
+    color: #93bfdc !important;
 }
 
 
@@ -452,9 +474,13 @@ h2 {
     width: 100%;
 }
 
+.footer .btn {
+    border-radius: unset !important;
+}
+
 *,
- ::after,
- ::before {
+::after,
+::before {
     object-fit: cover !important;
 }
 
@@ -465,11 +491,8 @@ h2 {
     h2 {
         font-size: 25px !important;
     }
-    .pt-100 {
+    .pt-40 {
         padding-top: 15px;
-    }
-    .navbar {
-        padding: 10px 10px 10px 10px !important;
     }
     .hero-upper {
         display: none !important;
@@ -535,7 +558,7 @@ h2 {
 @media (min-width: 576px) and (max-width: 767px) {}
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .pt-100 {
+    .pt-40 {
         padding-top: 40px;
     }
     .signup-form input {
@@ -548,7 +571,7 @@ h2 {
         right: 150px !important;
     }
     .carousel-control-prev {
-        left: 540px!important;
+        left: 540px !important;
     }
     .events .location-img {
         width: 40px;
@@ -572,9 +595,9 @@ h2 {
 
 @media (min-width: 1024px) and (max-width: 1439px) {
     .carousel-control-prev {
-        left: 200px !important;
+        left: 270px !important;
     }
     .carousel-control-next {
-        right: 215px !important;
+        right: 270px !important;
     }
 }
