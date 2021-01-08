@@ -1,0 +1,580 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    letter-spacing: 0.5px;
+    font-size: 15px !important;
+}
+
+h4 {
+    font-size: 20px !important;
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    font-size: 25px !important;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 30px !important;
+    letter-spacing: 0.5px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.text-black {
+    color: black;
+}
+
+
+/** Hero Section **/
+
+.hero-upper {
+    background-color: #297fb8;
+    padding: 10px 45px 0px 90px;
+}
+
+.hero-upper p {
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+
+.navbar {
+    padding: 10px 45px 10px 90px !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin-right: 45px;
+}
+
+.navbar-nav .active {
+    background-color: #297fb8;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #fff !important;
+}
+
+.nav-link :hover {
+    padding: 10px 10px 10px 10px !important;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 75px;
+}
+
+.hero-banner {
+    background-image: url(Assets/lucas-law-pIToUG-_Vo0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.hero-banner::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-banner-inner {
+    z-index: 1;
+    position: relative;
+    padding: 100px 45px 10px 90px !important;
+}
+
+.hero-stats {
+    background-color: #297fb8;
+}
+
+.hero-stats i {
+    font-size: 40px !important;
+    color: #297fb8 !important;
+    padding: 10px 10px;
+}
+
+.icon-stack {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+}
+
+
+/** Hero Section End **/
+
+
+/** Marketing Sec **/
+
+.marketing-sec i {
+    font-size: 30px;
+    color: #297fb8;
+}
+
+.marketing-sec-img {
+    border: 5px solid #FFF;
+    box-shadow: 1px 1px 15px grey;
+}
+
+
+/** Marketing Sec End **/
+
+
+/** Popular Course **/
+
+.post-slide5 {
+    margin: 0 15px;
+    transition: all .4s ease-in-out 0s;
+    box-shadow: 1px 5px 5px #e6e6e6;
+    margin-bottom: 2em;
+    border: 10px;
+}
+
+.post-slide5 .post-img {
+    position: relative;
+    overflow: hidden
+}
+
+.post-slide5 .post-img:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: all .4s linear 0s
+}
+
+.post-slide5:hover .post-img:before {
+    background: rgba(0, 0, 0, .6)
+}
+
+.post-slide5 .post-img img {
+    width: 100%;
+    height: auto
+}
+
+.post-slide5 .category {
+    width: 20%;
+    font-size: 16px;
+    color: #fff;
+    line-height: 11px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 11px 0;
+    background: #297fb8;
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    transition: all .5s ease-in-out 0s
+}
+
+.post-slide5:hover .category {
+    left: 0
+}
+
+.post-slide5 .post-review {
+    padding: 25px 20px;
+    background: #fff;
+    position: relative
+}
+
+.post-slide5 .post-title {
+    margin: 0
+}
+
+.post-slide5 .post-title a {
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    transition: all .3s linear 0s
+}
+
+.post-slide5 .post-title a:hover {
+    text-decoration: none;
+    color: #555
+}
+
+.post-slide5 .post-description {
+    font-size: 15px;
+    color: #555;
+    line-height: 26px
+}
+
+.post-review .post-bar {
+    margin-top: 20px
+}
+
+.post-bar span {
+    display: inline-block;
+    font-size: 14px
+}
+
+.post-bar span i {
+    margin-right: 5px;
+    color: #999
+}
+
+.post-bar span a {
+    color: #999;
+    text-transform: uppercase
+}
+
+.post-bar span a:hover {
+    text-decoration: none;
+    color: #297fb8;
+}
+
+.post-bar span.comments {
+    float: right
+}
+
+@media only screen and (max-width:359px) {
+    .post-slide5 .category {
+        font-size: 13px
+    }
+}
+
+
+/** Popular Courses End **/
+
+
+/** SignUp Section **/
+
+.signup {
+    background-image: url(/Assets/johns-hopkins-university-1590925_640.jpg);
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 360px;
+    background-color: #297fb8;
+    opacity: 0.8;
+}
+
+.form-control {
+    width: 30% !important;
+}
+
+
+/** SignUp Section End **/
+
+
+/** Teacher Info Section **/
+
+.teacher-info .card {
+    align-items: center !important;
+    padding: 20px 20px 20px 20px !important;
+    box-shadow: 1px 5px 5px #e6e6e6;
+}
+
+.teacher-info .card-img {
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    width: 200px !important;
+}
+
+
+/** Teacher Info Section End **/
+
+
+/** Testimonial Section **/
+
+.carousel-inner {
+    background-color: #297fb8 !important;
+}
+
+.imgdiv {
+    border-radius: 7.5px;
+}
+
+.carousel-item .col-md-6 .text-left {
+    color: #ECECEC;
+    font-family: 'Roboto Slab', serif;
+}
+
+.carousel-item .col-md-6 .text-left ul li {
+    transition: .4s;
+}
+
+.carousel-item .col-md-6 .text-left ul li:hover {
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    bottom: 25px !important;
+    top: unset !important;
+    width: unset !important;
+}
+
+.carousel-control-prev {
+    left: 295px !important;
+}
+
+.carousel-control-next {
+    right: 295px !important;
+}
+
+.review-img {
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+/** Testimonail End **/
+
+
+/** Events Section **/
+
+.events i {
+    font-size: 30px;
+    color: #297fb8;
+}
+
+.events .location-img {
+    width: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.events .card {
+    box-shadow: 1px 5px 5px #e6e6e6;
+}
+
+
+/** Events End **/
+
+
+/** Teacher Signup **/
+
+.teacher-signup {
+    background-image: url(Assets/berry-college-1215581-1280x960.jpg);
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.teacher-signup::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+
+.teacher-signup .btn {
+    border-radius: 2.25rem !important;
+    padding: 0.375rem 1.75rem !important;
+}
+
+
+/** Latest News Section  **/
+
+.latest-news-editor i {
+    border: 2px solid #66a4cc;
+    border-radius: 50px;
+    padding: 8px;
+    background-color: #c5c5c5;
+}
+
+.latest-news .card {
+    box-shadow: 1px 5px 5px #e6e6e6;
+}
+
+
+/** Latest News Section End **/
+
+
+/** Admission Section **/
+
+.admission {
+    background-color: #297fb8;
+}
+
+.admission-content .btn {
+    border-radius: 2.25rem !important;
+    padding: 0.375rem 1.75rem !important;
+}
+
+
+/** Admission Section End **/
+
+.footer {
+    background-color: #f9f9f9;
+}
+
+.footer-brand {
+    width: 75px;
+}
+
+.news-letter .form-control {
+    width: 100% !important;
+}
+
+.news-letter .btn-secondary {
+    width: 100%;
+}
+
+*,
+ ::after,
+ ::before {
+    object-fit: cover !important;
+}
+
+
+/** Responsive **/
+
+@media (min-width: 320px) and (max-width: 575px) {
+    h2 {
+        font-size: 25px !important;
+    }
+    .pt-100 {
+        padding-top: 15px;
+    }
+    .navbar {
+        padding: 10px 10px 10px 10px !important;
+    }
+    .hero-upper {
+        display: none !important;
+    }
+    .hero-banner-inner {
+        padding: 65px 45px 10px 10px !important
+    }
+    .hero-banner {
+        height: 375px;
+    }
+    .hero-banner::before {
+        height: 375px;
+    }
+    .hero-stats {
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+    .icon-stack {
+        width: 40px;
+        height: 40px;
+    }
+    .hero-stats i {
+        font-size: 25px !important;
+    }
+    .marketing-sec i {
+        font-size: 20px;
+    }
+    .signup {
+        height: 285px !important;
+    }
+    .signup::before {
+        height: 285px !important;
+    }
+    .signup-form input {
+        width: 100% !important;
+    }
+    .teacher-info .card-img {
+        width: 120px !important;
+    }
+    .testimonial .testimonial-img {
+        display: none !important;
+    }
+    .carousel-control-prev {
+        left: 25px !important;
+    }
+    .carousel-control-next {
+        right: 25px !important;
+    }
+    .teacher-signup {
+        height: 290px !important;
+    }
+    .teacher-signup::before {
+        height: 290px !important;
+    }
+    .latest-news .card-img {
+        height: 200px !important;
+    }
+    .events .border-right {
+        border-right: unset !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .pt-100 {
+        padding-top: 40px;
+    }
+    .signup-form input {
+        width: 100% !important;
+    }
+    h2 {
+        font-size: 25px !important;
+    }
+    .carousel-control-next {
+        right: 150px !important;
+    }
+    .carousel-control-prev {
+        left: 540px!important;
+    }
+    .events .location-img {
+        width: 40px;
+    }
+    .events .border-right {
+        border-right: unset !important;
+    }
+    .teacher-signup {
+        height: 275px !important;
+    }
+    .teacher-signup::before {
+        height: 275px !important;
+    }
+    .signup {
+        height: 275px !important;
+    }
+    .signup::before {
+        height: 275px !important;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .carousel-control-prev {
+        left: 200px !important;
+    }
+    .carousel-control-next {
+        right: 215px !important;
+    }
+}
