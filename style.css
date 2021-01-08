@@ -591,6 +591,9 @@ h2 {
     .signup::before {
         height: 275px !important;
     }
+    .teacher-info .card-img {
+        width: 100px !important;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1439px) {
