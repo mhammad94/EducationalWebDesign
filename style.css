@@ -55,7 +55,7 @@ h2 {
 }
 
 .nav-item {
-    margin-right: 45px;
+    margin-right: 5px;
 }
 
 .navbar-nav .nav-item:hover {
@@ -514,8 +514,7 @@ h2 {
         height: 375px;
     }
     .hero-stats {
-        padding-left: 10px;
-        padding-top: 30px;
+        padding-top: 10px;
     }
     .icon-stack {
         width: 40px;
